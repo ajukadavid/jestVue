@@ -1,4 +1,10 @@
 # testing-tutt
+```
+Vue testing 
+
+using Jest to test vue code 
+```
+
 
 ## Project setup
 ```
