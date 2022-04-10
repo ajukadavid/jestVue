@@ -1,6 +1,8 @@
 <template>
-  <div class="hello">
-
+  <div>
+<div v-for="todo in todos" :key="todo.id" data-test="todo">
+  {{todo.text}}
+</div>
   </div>
 </template>
 
@@ -12,7 +14,8 @@ export default {
       todos: [
         {
           id: 1,
-          text: "Learn Vue testing"
+          text: "Learn Vue testing",
+          completed: false
         }
       ]
     }
