@@ -1,14 +1,17 @@
 <template>
+  <NavBar />
   <img alt="Vue logo" src="./assets/logo.png">
   <TodoApp />
 </template>
 
 <script>
 import TodoApp from "@/components/TodoApp";
+import NavBar from "@/components/NavBar";
 
 export default {
   name: 'App',
   components: {
+    NavBar,
     TodoApp,
 
   }
